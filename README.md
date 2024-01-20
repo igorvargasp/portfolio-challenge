@@ -46,7 +46,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 - Header - 30min
 - Hero Section 1h
-- Stack - 1h
-- Projects
+- Stack Section - 1h
+- Projects Section - 1h
 - Contact
 - Footer

@@ -12,7 +12,7 @@ const HeroSection = () => {
         </section>
         <section className="flex flex-col md:w-[30%] w-full md:items-end items-center justify-center md:space-y-2 space-y-6 ">
             <Image quality={100} width="250" height="250" alt="igor`s profile picture" src="/profile.jpg" className="rounded-full opacity-35"/>
-            <span className="items-end text-white md:pr-16 pr-0">Hi, I'm Igor 👋</span>
+            <span className="items-end text-white md:pr-16 pr-0 animate-typing">Hi, I'm Igor 👋</span>
         </section>
         </div>
         </section>
