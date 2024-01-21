@@ -18,20 +18,20 @@ export const stackItems: StackItemsProp[] = [
         name: "NextJs",
         icon: "/icons/next.png",
         color: "#06b6d4",
-        alt:"ReactJS icon",
+        alt:"NextJs icon",
     },
     {
         name: "Typescript",
         icon: "/icons/typescript.png",
         color: "#06b6d4",
-        alt:"ReactJS icon",
+        alt:"Typescript icon",
     },
 
     {
         name: "NodeJs",
         icon: "/icons/node-js.png",
         color: "#06b6d4",
-        alt:"ReactJS icon",
+        alt:"NodeJs icon",
     }
 
 ]

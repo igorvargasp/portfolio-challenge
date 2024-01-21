@@ -4,3 +4,10 @@
 
 
 
+.dark-mode-text {
+   @apply dark:hover:text-white;
+}
+
+.light-mode-text {
+   @apply hover:text-black;
+}

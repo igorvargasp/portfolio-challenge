@@ -3,6 +3,7 @@ import { Outfit } from "next/font/google";
 import "./globals.css";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
+import Theme from "@/providers/ThemeProvider";
 
 const outfit = Outfit({ subsets: ["latin"],weight: ['100','200', '300', '400', '500', '600'] });
 
@@ -19,10 +20,12 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
 
-      <body className={`${outfit.className} bg-black`}>
+      <body className={`${outfit.className} dark:bg-black`}>
+        <Theme>
         <Header/>
         {children}
-      <Footer/>
+        <Footer/>
+        </Theme>
       </body>
     </html>
   );

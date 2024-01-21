@@ -6,13 +6,13 @@ import React from "react";
 const Header = () => {
     return (
         <header className="w-full flex p-4 justify-center">
-            <div className="flex w-9/12 justify-between">
+            <div className="flex lg:w-9/12 w-11/12 justify-between">
                 <section className="flex w-1/2 justify-start items-center space-x-5">
-                    <span className="flex bg-[#202023] p-5 rounded-full border-solid border-[#8A8A8A] border-[0.5px] ">
+                    <span className="flex dark:bg-[#202023] bg-slate-100 p-5 rounded-full border-solid border-[#8A8A8A] border-[0.5px] ">
                         <Image width="20" height="20" alt="Mail icon to get in touch" src="/icons/mail.svg" />
                     </span>
                     <Link href="#contact">
-                        <span className="text-[#8A8A8A] hover:text-white cursor-pointer">Get in touch</span>
+                        <span className="text-[#8A8A8A] light-mode-text dark-mode-text cursor-pointer">Get in touch</span>
                     </Link>
                 </section>
                 <nav className="flex w-1/2 justify-end items-center">
@@ -21,7 +21,7 @@ const Header = () => {
                             <React.Fragment key={index}>
                                 <li>
                                     <Link href={item.url} target={"_blank"}>
-                                        <span className="text-title hover:text-white">{item.name}</span>
+                                        <span className="text-title light-mode-text dark-mode-text">{item.name}</span>
                                     </Link>
                                 </li>
                                 {item.hasSeparator && <div className="border-l border-l-[#8A8A8A]" aria-hidden="true" />}

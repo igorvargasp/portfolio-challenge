@@ -17,7 +17,7 @@ const ContactSection = () => {
                             placeholder="Your name"
                             name="name"
                             required
-                            className="w-full text-gray-100 bg-stone-950 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
+                            className="w-full dark:text-gray-100 dark:bg-stone-950 bg-slate-100 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                         />
                     </label>
                     <label  className="text-[#54595F]">
@@ -27,7 +27,7 @@ const ContactSection = () => {
                             placeholder="Your email"
                             name="email"
                             required
-                            className="w-full text-gray-100 bg-stone-950 mt-2 p-5 rounded-lg focus:outline-none focus:shadow-outline"
+                            className="w-full dark:text-gray-100 dark:bg-stone-950 bg-slate-100 mt-2 p-5 rounded-lg focus:outline-none focus:shadow-outline"
                         />
                     </label>
                     <label  className="text-[#54595F]">
@@ -36,7 +36,7 @@ const ContactSection = () => {
                             required
                             placeholder="Your message"
                             name="message"
-                            className="pb-16 w-full text-gray-100 bg-stone-950 mt-2 p-5 rounded-lg focus:outline-none focus:shadow-outline"
+                            className="pb-16 w-full dark:text-gray-100 dark:bg-stone-950 bg-slate-100 mt-2 p-5 rounded-lg focus:outline-none focus:shadow-outline"
                         />
                     </label>
                     <button type="submit" className="font-bold text-[16px] text-[#9A9A9A] border border-[#242424] p-5 rounded-md w-full md:w-1/5">

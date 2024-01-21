@@ -18,10 +18,10 @@ const ProjectCard = ({
     return (
         <div className={`flex flex-col w-full gap-10 pb-10 items-center`}>
             <div className={`relative flex flex-row-reverse justify-center items-center lg:w-10/12 w-full ${itensAlign === "start" ? "border-l" : " border-r"}`}>
-                <span className={`text-white absolute ${itensAlign === "start" ? "left-10" : " right-10"}`}>{date}</span>
-                <h2 className="text-justify text-[#8A8A8A] text-2xl flex hover:text-white">{company}</h2>
+                <span className={`dark:text-white absolute ${itensAlign === "start" ? "left-10" : " right-10"}`}>{date}</span>
+                <h2 className="text-justify text-[#8A8A8A] text-2xl flex dark:hover:text-white hover:text-black">{company}</h2>
             </div>
-            <p className="lg:w-1/2 w-full text-[#8A8A8A] hover:text-white">{description}</p>
+            <p className="lg:w-1/2 w-full text-[#8A8A8A] dark:hover:text-white hover:text-black">{description}</p>
             <div className="flex space-x-3">
                 {
                 technologies.map((item, index) => (

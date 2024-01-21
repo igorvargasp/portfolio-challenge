@@ -1,3 +1,4 @@
+import ThemeSwitch from "@/components/ThemeSwitch/ThemeSwitch";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -17,8 +18,9 @@ const HeroSection = () => {
                     </Link>
                 </section>
                 <section className="flex flex-col lg:w-[50%] w-full lg:items-end items-center justify-center lg:space-y-2 space-y-6">
+                    <ThemeSwitch/>
                     <Image quality={100} width="250" height="250" alt="Igor's profile picture" src="/profile.jpg" className="rounded-full opacity-35" />
-                    <span className="text-white lg:pr-16">Hi, I'm Igor 👋</span>
+                    <span className=" dark:text-white lg:pr-16">Hi, I'm Igor 👋</span>
                 </section>
             </div>
         </section>

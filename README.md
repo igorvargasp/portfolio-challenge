@@ -54,4 +54,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 # Functions
  - actions: 10 min
- - api: 10 min  
+ - api: 10 min
+ - switch theme - 30 min  
