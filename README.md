@@ -41,10 +41,14 @@ npm run dev
   > Header
    > Header.tsx
   > Sections
-   > CarrerSection.tsx
-   > ContactSection.tsx
-   > HeroSection.tsx
-   > StackSection.tsx
+   > CarrerSection
+      > CarrerSection.tsx
+   > ContactSection
+      > ContactSection.tsx
+   > HeroSection
+      > HeroSection.tsx
+   > StackSection
+      > StackSection.tsx
   > ThemeSwitch
    > ThemeSwitch.tsx
       > ThemeProvider.tsx
