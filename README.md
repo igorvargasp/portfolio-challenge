@@ -18,7 +18,7 @@ SMTP_PASSWORD= your password here
 ```
 Follow this guide to generate your password [guide](https://support.google.com/accounts/answer/185833?hl=pt-BR)
 
-After the previous steps you can run your local enviorment:
+After the previous steps you can run your local environment:
 ```bash
 npm run dev
 ```
