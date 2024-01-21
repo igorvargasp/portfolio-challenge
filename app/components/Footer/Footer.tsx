@@ -1,4 +1,4 @@
-import { NavItemsProps, navItems } from "@/app/utils/NavItems"
+import { NavItemsProps, navItems } from "@/utils/NavItems"
 import Link from "next/link"
 import React from "react"
 

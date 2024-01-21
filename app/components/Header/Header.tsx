@@ -1,5 +1,5 @@
 
-import { NavItemsProps, navItems } from "@/app/utils/NavItems";
+import { NavItemsProps, navItems } from "@/utils/NavItems";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";

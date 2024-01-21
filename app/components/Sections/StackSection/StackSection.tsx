@@ -1,4 +1,4 @@
-import { stackItems } from "@/app/utils/stackItems";
+import { stackItems } from "@/utils/stackItems";
 import StackCard from "../../Card/StackCard";
 
 

@@ -1,4 +1,4 @@
-import { sendEmail } from "@/app/actions/actions";
+import { sendEmail } from "@/actions/actions";
 
 const ContactSection = () => {
 

@@ -1,4 +1,4 @@
-import { carrerItems } from "@/app/utils/carrerItems"
+import { carrerItems } from "@/utils/carrerItems"
 import ProjectCard from "../../Card/ProjectCard"
 
 
