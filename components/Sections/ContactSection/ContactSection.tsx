@@ -10,7 +10,7 @@ const ContactSection = () => {
             </h2>
             <div className="flex flex-col lg:w-8/12 w-11/12 justify-center gap-5">
                 <form className="grid grid-cols-1 gap-5 lg:grid-cols-1 mt-5 w-full" action={sendEmail}>
-                    <label className="text-[#54595F]">
+                    <label className="text-gray-tertiary">
                         Name:
                         <input
                             type="text"
@@ -20,7 +20,7 @@ const ContactSection = () => {
                             className="w-full dark:text-gray-100 dark:bg-stone-950 bg-slate-100 mt-2 p-3 rounded-lg focus:outline-none focus:shadow-outline"
                         />
                     </label>
-                    <label  className="text-[#54595F]">
+                    <label  className="text-gray-tertiary">
                         Email:
                         <input
                             type="email"
@@ -30,7 +30,7 @@ const ContactSection = () => {
                             className="w-full dark:text-gray-100 dark:bg-stone-950 bg-slate-100 mt-2 p-5 rounded-lg focus:outline-none focus:shadow-outline"
                         />
                     </label>
-                    <label  className="text-[#54595F]">
+                    <label  className="text-gray-tertiary">
                         Message:
                         <textarea
                             required
@@ -39,7 +39,7 @@ const ContactSection = () => {
                             className="pb-16 w-full dark:text-gray-100 dark:bg-stone-950 bg-slate-100 mt-2 p-5 rounded-lg focus:outline-none focus:shadow-outline"
                         />
                     </label>
-                    <button type="submit" className="font-bold text-[16px] text-[#9A9A9A] border border-[#242424] p-5 rounded-md w-full md:w-1/5">
+                    <button type="submit" className="font-bold text-[16px] text-gray-primary border border-black-primary p-5 rounded-md w-full md:w-1/5">
                         Send
                     </button>
                 </form>

@@ -17,7 +17,7 @@ const Footer = () => {
                                         <span className="text-title dark:hover:text-white hover:text-black">{item.name}</span>
                                     </Link>
                                 </li>
-                                {item.hasSeparator && <div className="border-l border-l-[#8A8A8A]" aria-hidden="true" />}
+                                {item.hasSeparator && <div className="border-l border-l-gray-primary" aria-hidden="true" />}
                             </React.Fragment>
                         ))}
                     </ul>

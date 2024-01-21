@@ -1,10 +1,19 @@
 'use client'
 
 import { useTheme } from 'next-themes'
+import { useEffect, useState } from 'react'
 
 export default function ThemeSwitch() {
-
+  const [mounted, setMounted] = useState(false)
   const { theme, setTheme } = useTheme()
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) {
+    return null
+  }
 
   return (
    <div className="flex w-full lg:justify-end justify-center lg:pr-16 mb-10">
