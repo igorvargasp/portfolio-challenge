@@ -83,3 +83,14 @@ npm run dev
  - actions: 10 min
  - api: 10 min
  - switch theme - 30 min  
+
+
+## Decisions made during the development process.
+
+- Create all the design first
+- Implement the design and styles
+- Add the form + server actions
+- Implement the api
+- Added all the reused custom styles and custom width in the tailwind file
+- Fix issues
+- Update readme file with the development progress.
