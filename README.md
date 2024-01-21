@@ -50,3 +50,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - Projects Section - 1h
 - Contact - 30 min
 - Footer - 10 min
+
+
+# Functions
+ - actions: 10 min
+ - api: 10 min  
