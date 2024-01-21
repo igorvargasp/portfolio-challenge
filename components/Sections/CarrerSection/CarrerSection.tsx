@@ -1,9 +1,9 @@
 import { carrerItems } from "@/utils/carrerItems"
-import ProjectCard from "../../Card/ProjectCard"
+import CarrerCard from "../../Card/CarrerCard";
 
 
 
-const ProjectSection = () => {
+const CarrerSection = () => {
 
     return (
      <>
@@ -11,7 +11,7 @@ const ProjectSection = () => {
             <section className="w-full flex justify-center items-center mt-60">
                 <article className="flex flex-col lg:w-3/4 w-11/12 space-y-20 ">     
                     {carrerItems.map((item, index) => (
-                        <ProjectCard
+                        <CarrerCard
                         company={item.company}
                         description={item.description}
                         technologies={item.technologies}
@@ -26,4 +26,4 @@ const ProjectSection = () => {
     )
 }
 
-export default ProjectSection;
+export default CarrerSection;

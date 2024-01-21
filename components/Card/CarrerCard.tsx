@@ -1,6 +1,6 @@
 import React from 'react';
 
-interface ProjectCardProps {
+interface CarrerCardProps {
     company: string;
     description: string;
     technologies: string[];
@@ -8,7 +8,7 @@ interface ProjectCardProps {
     date: string;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({
+const CarrerCard: React.FC<CarrerCardProps> = ({
     company,
     description,
     technologies,
@@ -33,4 +33,4 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
     );
 };
 
-export default ProjectCard;
+export default CarrerCard;
