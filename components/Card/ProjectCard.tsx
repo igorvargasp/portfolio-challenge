@@ -8,13 +8,13 @@ interface ProjectCardProps {
     date: string;
 }
 
-const ProjectCard = ({
+const ProjectCard: React.FC<ProjectCardProps> = ({
     company,
     description,
     technologies,
     itensAlign,
     date
-}: ProjectCardProps) => {
+}) => {
     return (
         <div className={`flex flex-col w-full gap-10 pb-10 items-center`}>
             <div className={`relative flex flex-row-reverse justify-center items-center lg:w-10/12 w-full ${itensAlign === "start" ? "border-l" : " border-r"}`}>

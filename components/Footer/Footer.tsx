@@ -12,8 +12,7 @@ const Footer = () => {
                         {navItems.map((item: NavItemsProps, index) => (
                             <React.Fragment key={index}>
                                 <li>
-                                    <Link href={item.url}>
-                                        {/* Use <a> tag for accessibility and SEO */}
+                                    <Link href={item.url} target={"_blank"}>
                                         <span className="text-title dark:hover:text-white hover:text-black">{item.name}</span>
                                     </Link>
                                 </li>

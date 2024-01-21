@@ -11,8 +11,6 @@ interface EMailBody {
 
 export async function POST(req:Request){
     const data = await req.json() as EMailBody ;
-    console.log(data);
-
     try {
         const transporter = nodeMailer.createTransport({
             port: parseInt(process.env.SMTP_PORT || "587"),
