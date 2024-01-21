@@ -24,7 +24,8 @@ export async function POST(req:Request){
         const {accepted } = await transporter.sendMail({
             from: process.env.SMTP_MAIL,
             to: data.email,
-            subject: `${data.name} has send you the following message: ${data.message}`
+            subject: "Portfolio contact",
+            text: `${data.name} has send you the following message: ${data.message}`
         })
 
         if(accepted){
