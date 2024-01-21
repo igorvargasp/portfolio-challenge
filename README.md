@@ -82,7 +82,9 @@ npm run dev
 # Functions
  - actions: 10 min
  - api: 10 min
- - switch theme - 30 min  
+ - switch theme - 30 min
+
+  Total time: 6h  
 
 
 ## Decisions made during the development process.
