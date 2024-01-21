@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 
 const outfit = Outfit({ subsets: ["latin"],weight: ['100','200', '300', '400', '500', '600'] });
 
@@ -15,9 +17,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
 
-      <body className={`${outfit.className} bg-black`}>{children}</body>
+      <body className={`${outfit.className} bg-black`}>
+        <Header/>
+        {children}
+      <Footer/>
+      </body>
     </html>
   );
 }

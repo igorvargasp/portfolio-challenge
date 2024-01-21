@@ -44,9 +44,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 ## Componentes
 
-- Header - 30min
+- Header - 30 min
 - Hero Section 1h
 - Stack Section - 1h
 - Projects Section - 1h
-- Contact
-- Footer
+- Contact - 30 min
+- Footer - 10 min

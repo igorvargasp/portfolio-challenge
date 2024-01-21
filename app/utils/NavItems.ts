@@ -9,13 +9,13 @@ export type NavItemsProps = {
 export const navItems: NavItemsProps[] = [
     {
         name: "Linkedin",
-        url: "/linkedin/",
+        url: "https://www.linkedin.com/in/igorvargasp/",
         hasSeparator: true,
 
     },
     {
         name: "Github",
-        url: "/github/",
+        url: "https://github.com/igorvargasp",
 
     },
 ]
