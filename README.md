@@ -77,7 +77,7 @@ npm run dev
 - Header - 30 min
 - Hero Section 1h
 - Stack Section - 1h
-- Projects Section - 1h
+- Carrer Section - 1h
 - Contact - 30 min
 - Footer - 10 min
 
